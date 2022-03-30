@@ -1,0 +1,10 @@
+namespace: "ntheule_lab"
+name: "linux_hardening"
+description: ""
+version: "1.0.0"
+readme: "README.md"
+authors:
+  - "Nathan Theule"
+dependencies:
+  "ansible.posix": "*"
+repository: "https://github.com/ntheule/ansible-linux-hardening.git"
