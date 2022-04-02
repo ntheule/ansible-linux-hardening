@@ -20,6 +20,7 @@
     sysctl_set: true
     state: present
     reload: true
+  become: true
 
 - name: Disable IPv6 default
   ansible.posix.sysctl:
@@ -28,6 +29,7 @@
     sysctl_set: true
     state: present
     reload: true
+  become: true
 
 - name: Disable IPv6 lo
   ansible.posix.sysctl:
@@ -36,3 +38,4 @@
     sysctl_set: true
     state: present
     reload: true
+  become: true
